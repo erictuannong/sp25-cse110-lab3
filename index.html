@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team#20 Meeting Brainstorm</title>
     <link rel="icon" href="favicon.ico" sizes="16x16" type="image/x-icon">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-        <div>Navigation To Important Topics</div>
+        <div class="navigation-container">Navigation To Important Topics</div>
         <nav>
             <ul>
                 <li><a href="#agenda">Agenda</a></li>
@@ -26,17 +30,22 @@
             We talked a lot about team bonding, completing tasks efficientely, and commucation skills.
         </details>
         <hr>
-        <h1>Meeting Topic</h1>
-        <h2>Brainstorming</h2>
-        <h3>April 9th, 2025</h3>
+        <div id="meeting_topics" class="meeting-container">
+            <h1>Meeting Topic</h1>
+            <h2>Brainstorming</h2>
+            <h3>April 9th, 2025</h3>
+        </div>
         <hr>
-        <h1>Attendance List</h1>
-        <ul>
-            <li>Jason - Present</li>
-            <li>Erictuan - Present</li>
-            <li>Justin - Absent</li>
-            <li>Austin - Present</li>
-        </ul>
+        <div class = "attendance_class">
+            <h1>Attendance List</h1>
+            <h2>Hopefully everyone showed up!</h2>
+            <ul>
+                <li>Jason - Present</li>
+                <li>Erictuan - Present</li>
+                <li>Justin - Absent</li>
+                <li>Austin - Present</li>
+            </ul>
+        </div>
         <section>
             <div id="agenda" class="agenda-container">
                 <h1>Agenda</h1>
@@ -46,6 +55,7 @@
                     <li>Effective Communication Skills</li>
                     <li>Food Review</li>
                 </ul>
+                <div>Let's go over important stuff today!</div>
             </div>
         </section>
         <span>Due to <em>time constraints</em> the meeting hasn't covered Food Review and will cover it next time.</span>
@@ -54,7 +64,7 @@
         <hr>
         <section>
         <h1 id="questions">Questions</h1>
-            <ol>
+            <ol class="questions-class">
                 <li>What defines a good team?</li>
                 <li>What programming languages are necessary?</li>
             </ol>
@@ -107,6 +117,10 @@
         </select>
         <hr>
         <button type="button">Click Me!</button>
+        <div>
+            <h1>Watch me change</h1>
+            <h3>To something else</h3>
+        </div>
     </main>
   </body>
 </html>
