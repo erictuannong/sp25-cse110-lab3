@@ -70,7 +70,7 @@ body{
 
   .questions-class {
     position: fixed;
-    color: color-mix(in srgb, red 70%, blue 50%);
+    color: color-mix(in srgb, red 30%, blue 50%, green 100%);
     margin-top: 20px;
     margin-right: auto;
     margin-bottom: 20px;
